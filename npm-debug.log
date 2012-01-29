@@ -1,0 +1,278 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+info using npm@1.0.106
+info using node@v0.6.8
+verbose /usr/local/bin/node node symlink
+verbose config file /Users/george/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose publish [ '.' ]
+silly testEngine { author: { name: 'George Ornbo', email: 'george@shapeshed.com' },
+silly testEngine   name: 'ohai',
+silly testEngine   description: 'An boilerplate module for a tutorial in Sams Teach Yourself Node.js in 24 Hours',
+silly testEngine   keywords: [ 'example', 'boilerplate' ],
+silly testEngine   version: '0.0.1',
+silly testEngine   bugs: { url: 'http://github.com/shapeshed/ohai/issues' },
+silly testEngine   main: './lib/ohai.js',
+silly testEngine   bin: { ohai: './bin/ohai.js' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/shapeshed/ohai.git' },
+silly testEngine   engines: { node: '0.4 || 0.6 || 0.7' },
+silly testEngine   scripts: { test: 'node ./test/ohai.js' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/shapeshed/ohai/raw/master/LICENSE' } ],
+silly testEngine   _npmUser: { name: 'shapeshed', email: 'george@shapeshed.com' },
+silly testEngine   _id: 'ohai@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.8',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/george/Desktop/ohai/package.json
+verbose loadDefaults ohai@0.0.1
+info prepublish ohai@0.0.1
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', path: '.', href: '.' }
+silly testEngine { author: { name: 'George Ornbo', email: 'george@shapeshed.com' },
+silly testEngine   name: 'ohai',
+silly testEngine   description: 'An boilerplate module for a tutorial in Sams Teach Yourself Node.js in 24 Hours',
+silly testEngine   keywords: [ 'example', 'boilerplate' ],
+silly testEngine   version: '0.0.1',
+silly testEngine   bugs: { url: 'http://github.com/shapeshed/ohai/issues' },
+silly testEngine   main: './lib/ohai.js',
+silly testEngine   bin: { ohai: './bin/ohai.js' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/shapeshed/ohai.git' },
+silly testEngine   engines: { node: '0.4 || 0.6 || 0.7' },
+silly testEngine   scripts: { test: 'node ./test/ohai.js' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/shapeshed/ohai/raw/master/LICENSE' } ],
+silly testEngine   _npmUser: { name: 'shapeshed', email: 'george@shapeshed.com' },
+silly testEngine   _id: 'ohai@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.8',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/Users/george/Desktop/ohai' }
+verbose caching package.json
+verbose loadDefaults ohai@0.0.1
+verbose pack /Users/george/Desktop/ohai /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/tmp.tgz
+silly makeList /Users/george/Desktop/ohai
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572'
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064'
+verbose mkdir done: /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064 755
+verbose mkdir'ed /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar', [ '-czvf', '-', '-T', '-' ], '/Users/george/Desktop' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents'
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm'
+verbose mkdir done: /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/tmp.tgz' ],
+silly spawning   '/var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm' ]
+silly tar err x ohai/.gitignore
+silly tar err x ohai/.travis.yml
+silly tar err x ohai/LICENSE
+silly tar err x ohai/package.json
+silly tar err x ohai/README.md
+silly tar err x ohai/bin/ohai.js
+silly tar err x ohai/lib/ohai.js
+silly tar err x ohai/test/ohai.js
+silly tar exit 0
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai/.gitignore
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai/.travis.yml
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai/LICENSE
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai/package.json
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai/README.md
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai/bin
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai/bin/ohai.js
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai/lib
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai/lib/ohai.js
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai/test
+silly asyncMap in gTP /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai/test/ohai.js
+verbose gunzed /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai
+verbose rm'ed /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/package
+verbose renamed [ '/var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/___package.npm/ohai',
+verbose renamed   '/var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/package' ]
+silly testEngine { author: { name: 'George Ornbo', email: 'george@shapeshed.com' },
+silly testEngine   name: 'ohai',
+silly testEngine   description: 'An boilerplate module for a tutorial in Sams Teach Yourself Node.js in 24 Hours',
+silly testEngine   keywords: [ 'example', 'boilerplate' ],
+silly testEngine   version: '0.0.1',
+silly testEngine   bugs: { url: 'http://github.com/shapeshed/ohai/issues' },
+silly testEngine   main: './lib/ohai.js',
+silly testEngine   bin: { ohai: './bin/ohai.js' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/shapeshed/ohai.git' },
+silly testEngine   engines: { node: '0.4 || 0.6 || 0.7' },
+silly testEngine   scripts: { test: 'node ./test/ohai.js' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/shapeshed/ohai/raw/master/LICENSE' } ],
+silly testEngine   _npmUser: { name: 'shapeshed', email: 'george@shapeshed.com' },
+silly testEngine   _id: 'ohai@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.8',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/package' }
+verbose caching /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/package/package.json
+verbose loadDefaults ohai@0.0.1
+verbose tarball contents [ 'package' ]
+verbose from cache /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/package/package.json
+verbose pack /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/package /Users/george/.npm/ohai/0.0.1/package.tgz
+silly makeList /var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/george/.npm/ohai'
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/george/.npm/ohai/0.0.1'
+verbose mkdir done: /Users/george/.npm/ohai/0.0.1 755
+verbose mkdir'ed /Users/george/.npm/ohai/0.0.1
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/var/folders/2f/t_x1gp_s7v172zx4y5q5c31m0000gn/T/npm-1327878144572/1327878144572-0.23920719185844064/contents' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/george/.npm/ohai/0.0.1/___package.npm'
+verbose mkdir done: /Users/george/.npm/ohai/0.0.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/george/.npm/ohai/0.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/Users/george/.npm/ohai/0.0.1/package.tgz' ],
+silly spawning   '/Users/george/.npm/ohai/0.0.1/___package.npm' ]
+silly tar err x package/.gitignore
+silly tar err x package/.travis.yml
+silly tar err x package/LICENSE
+silly tar err x package/package.json
+silly tar err x package/README.md
+silly tar err x package/bin/ohai.js
+silly tar err x package/lib/ohai.js
+silly tar err x package/test/ohai.js
+silly tar exit 0
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package/.gitignore
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package/.travis.yml
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package/LICENSE
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package/package.json
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package/README.md
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package/bin
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package/bin/ohai.js
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package/lib
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package/lib/ohai.js
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package/test
+silly asyncMap in gTP /Users/george/.npm/ohai/0.0.1/___package.npm/package/test/ohai.js
+verbose gunzed /Users/george/.npm/ohai/0.0.1/___package.npm/package
+verbose rm'ed /Users/george/.npm/ohai/0.0.1/package
+verbose renamed [ '/Users/george/.npm/ohai/0.0.1/___package.npm/package',
+verbose renamed   '/Users/george/.npm/ohai/0.0.1/package' ]
+silly testEngine { author: { name: 'George Ornbo', email: 'george@shapeshed.com' },
+silly testEngine   name: 'ohai',
+silly testEngine   description: 'An boilerplate module for a tutorial in Sams Teach Yourself Node.js in 24 Hours',
+silly testEngine   keywords: [ 'example', 'boilerplate' ],
+silly testEngine   version: '0.0.1',
+silly testEngine   bugs: { url: 'http://github.com/shapeshed/ohai/issues' },
+silly testEngine   main: './lib/ohai.js',
+silly testEngine   bin: { ohai: './bin/ohai.js' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/shapeshed/ohai.git' },
+silly testEngine   engines: { node: '0.4 || 0.6 || 0.7' },
+silly testEngine   scripts: { test: 'node ./test/ohai.js' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/shapeshed/ohai/raw/master/LICENSE' } ],
+silly testEngine   _npmUser: { name: 'shapeshed', email: 'george@shapeshed.com' },
+silly testEngine   _id: 'ohai@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.8',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: 
+silly testEngine    { shasum: '85930885309ae7193d442271a2d2f1466fd9c813',
+silly testEngine      tarball: 'http://registry.npmjs.org/ohai/-/ohai-0.0.1.tgz' } }
+verbose caching /Users/george/.npm/ohai/0.0.1/package/package.json
+verbose loadDefaults ohai@0.0.1
+silly updated sha bytes 10240
+info shasum 85930885309ae7193d442271a2d2f1466fd9c813
+info shasum /Users/george/.npm/ohai/0.0.1/package.tgz
+verbose from cache /Users/george/.npm/ohai/0.0.1/package/package.json
+verbose chmod /Users/george/.npm/ohai/0.0.1/package.tgz 644
+verbose chown [ '/Users/george/.npm/ohai/0.0.1/package.tgz', 501, 20 ]
+silly publish { author: { name: 'George Ornbo', email: 'george@shapeshed.com' },
+silly publish   name: 'ohai',
+silly publish   description: 'An boilerplate module for a tutorial in Sams Teach Yourself Node.js in 24 Hours',
+silly publish   keywords: [ 'example', 'boilerplate' ],
+silly publish   version: '0.0.1',
+silly publish   bugs: { url: 'http://github.com/shapeshed/ohai/issues' },
+silly publish   main: './lib/ohai.js',
+silly publish   bin: { ohai: './bin/ohai.js' },
+silly publish   repository: { type: 'git', url: 'git://github.com/shapeshed/ohai.git' },
+silly publish   engines: { node: '0.4 || 0.6 || 0.7' },
+silly publish   scripts: { test: 'node ./test/ohai.js' },
+silly publish   licenses: 
+silly publish    [ { type: 'MIT',
+silly publish        url: 'http://github.com/shapeshed/ohai/raw/master/LICENSE' } ],
+silly publish   _npmUser: { name: 'shapeshed', email: 'george@shapeshed.com' },
+silly publish   _id: 'ohai@0.0.1',
+silly publish   dependencies: {},
+silly publish   devDependencies: {},
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.0.106',
+silly publish   _nodeVersion: 'v0.6.8',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: '85930885309ae7193d442271a2d2f1466fd9c813',
+silly publish      tarball: 'http://registry.npmjs.org/ohai/-/ohai-0.0.1.tgz' } }
+verbose PUT ohai
+verbose raw, before any munging ohai
+verbose url resolving [ 'https://registry.npmjs.org/', './ohai' ]
+verbose url resolved https://registry.npmjs.org/ohai
+verbose GET ohai
+verbose raw, before any munging ohai
+verbose url resolving [ 'https://registry.npmjs.org/', './ohai' ]
+verbose url resolved https://registry.npmjs.org/ohai
+verbose PUT ohai/0.0.1/-tag/latest
+verbose raw, before any munging ohai/0.0.1/-tag/latest
+verbose url resolving [ 'https://registry.npmjs.org/', './ohai/0.0.1/-tag/latest' ]
+verbose url resolved https://registry.npmjs.org/ohai/0.0.1/-tag/latest
+ERR! Error sending version data
+ERR! Error: forbidden user: shapeshed not authorized to modify ohai
+ERR! Changed: description "Shared namespace between client and server" -> "An boilerplate module for a tutorial in Sams Teach Yourself Node.js in 24 Hours"
+ERR! Changed: dist-tags.latest "0.0.3" -> "0.0.1"
+ERR! Added: versions.0.0.1
+ERR! Changed: time.modified "2011-12-28T16:49:11.105Z" -> "2012-01-29T23:02:26.896Z"
+ERR! Added: time.0.0.1
+ERR! Changed: author.name "yawn" -> "George Ornbo"
+ERR! Changed: author.email "yawn.localhost@gmail.com" -> "george@shapeshed.com"
+ERR! Added: repository: ohai/0.0.1/-tag/latest
+ERR!     at Request._callback (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:180:12)
+ERR!     at Request.callback (/usr/local/lib/node_modules/npm/node_modules/request/main.js:99:22)
+ERR!     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:361:18)
+ERR!     at Request.emit (events.js:67:17)
+ERR!     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:327:16)
+ERR!     at IncomingMessage.emit (events.js:88:20)
+ERR!     at HTTPParser.onMessageComplete (http.js:137:23)
+ERR!     at CleartextStream.ondata (http.js:1137:24)
+ERR!     at CleartextStream._push (tls.js:367:27)
+ERR!     at SecurePair.cycle (tls.js:688:20)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 11.2.0
+ERR! command "node" "/usr/local/bin/npm" "publish"
+ERR! cwd /Users/george/Desktop/ohai
+ERR! node -v v0.6.8
+ERR! npm -v 1.0.106
+verbose exit [ 1, true ]
