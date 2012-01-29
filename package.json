@@ -17,7 +17,7 @@
     "url": "https://github.com/shapeshed/ohai.git"
   },
   "engines": {
-    "node": "~0.6.8"
+    "node": "0.4 || 0.6 || 0.7",
   },
   "scripts": {
     "test": "node ./test/ohai.js"
