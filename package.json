@@ -1,0 +1,31 @@
+{
+  "author": "George Ornbo <george@shapeshed.com>",
+  "name": "ohai",
+  "description": "An boilerplate module for a tutorial in Sams Teach Yourself Node.js in 24 Hours",
+  "keywords": [
+    "example",
+    "boilerplate"
+  ],
+  "version": "0.0.1",
+  "bugs": {
+    "url": "http://github.com/shapeshed/ohai/issues"
+  },
+  "main" : "./lib/ohai.js",
+  "bin" : { "ohai" : "./bin/ohai.js" },
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/shapeshed/ohai.git"
+  },
+  "engines": {
+    "node": "~0.6.8"
+  },
+  "scripts": {
+    "test": "node ./test/ohai.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/shapeshed/ohai/raw/master/LICENSE"
+    }
+  ]
+}
