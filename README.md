@@ -9,8 +9,10 @@ The module only has one function - `hello()`. This returns "Hello from the ohai 
 The examples shows:
 
 * How to create a module with Node.js
-* How to create a package.json file
 * How to write a simple test for the module 
 * Adding a README file
 * Adding a LICENSE file
+* How to hook the module up to [Travis CI][1]
+* How to create a package.json file
 
+[1]: http://travis-ci.org/
