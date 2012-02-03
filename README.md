@@ -1,4 +1,4 @@
-# Ohaithere
+# Ohaithere - An Example for the Sams Teach Yourself Node.js in 24 Hours book
 
 [![Build Status](https://secure.travis-ci.org/shapeshed/ohai.png)](http://travis-ci.org/shapeshed/ohai)
 
