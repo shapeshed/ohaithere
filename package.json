@@ -1,6 +1,6 @@
 {
   "author": "George Ornbo <george@shapeshed.com>",
-  "name": "ohai",
+  "name": "ohaithere",
   "description": "An boilerplate module for a tutorial in Sams Teach Yourself Node.js in 24 Hours",
   "keywords": [
     "example",
@@ -10,8 +10,8 @@
   "bugs": {
     "url": "http://github.com/shapeshed/ohai/issues"
   },
-  "main" : "./lib/ohai.js",
-  "bin" : { "ohai" : "./bin/ohai.js" },
+  "main" : "./lib/ohaithere.js",
+  "bin" : "./bin/ohaithere.js",
   "repository": {
     "type": "git", 
     "url": "https://github.com/shapeshed/ohai.git"
@@ -20,7 +20,7 @@
     "node": "0.4 || 0.6 || 0.7"
   },
   "scripts": {
-    "test": "node ./test/ohai.js"
+    "test": "node ./test/ohaithere.js"
   },
   "licenses": [
     {
